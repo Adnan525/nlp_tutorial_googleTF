@@ -30,7 +30,7 @@ def detect_sarcasm():
     sarcasm_prediction = predict_sarcasm(text)
 
     print(f"Sarcasm Prediction : {sarcasm_prediction}")
-    return "", 204
+    return "", 200
 
 if __name__ == '__main__':
     app.run(debug=True)
